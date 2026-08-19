@@ -1,0 +1,37 @@
+# macOS and editor noise
+.DS_Store
+._*
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local secrets and environments
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+*.postman_environment.json
+*.postman_globals.json
+
+# Logs and generated runner output
+*.log
+logs/
+newman/
+newman-report.*
+coverage/
+
+# Packet captures and lab artifacts that should be reviewed before release
+*.pcap
+*.pcapng
+*.har
+*.zip
+*.tar
+*.tar.gz
+*.tgz
